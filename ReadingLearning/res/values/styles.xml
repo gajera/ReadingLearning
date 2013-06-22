@@ -17,4 +17,39 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+    <style name="ButtonText">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+   <!-- <style name="MyActionBar" parent="AppBaseTheme">
+        <item name="android:actionBarTabStyle">@color/blue_base</item>
+    </style> -->
+
+
+    <style name="CustomActivityTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/MyActionBarColor</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarText</item>        <!-- other activity and action bar styles here -->
+    </style>
+
+    <!-- style for the action bar backgrounds -->
+    <style name="MyActionBarColor" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_bg</item>
+        <item name="android:textColor">@drawable/action_bar_textcolor</item>
+    </style>
+
+    <style name="MyActionBarText" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:textColor">@drawable/action_bar_textcolor</item>
+    </style>
+
+
 </resources>
