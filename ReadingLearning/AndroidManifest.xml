@@ -8,19 +8,21 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="17" />
 
-    <application
-        android:theme="@style/CustomActivityTheme"
-        >
+    <application android:theme="@style/CustomActivityTheme" >
         <activity
             android:name="com.example.readinglearning.MainActivity"
-            android:label="Demo"
-             >
+            android:label="Demo" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name="com.example.readinglearning.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
     </application>
 
 </manifest>

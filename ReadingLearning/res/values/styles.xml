@@ -1,14 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
@@ -31,14 +32,16 @@
         <item name="android:shadowRadius">2</item>
     </style>
 
-   <!-- <style name="MyActionBar" parent="AppBaseTheme">
+    <!--
+    <style name="MyActionBar" parent="AppBaseTheme">
         <item name="android:actionBarTabStyle">@color/blue_base</item>
-    </style> -->
-
+    </style>
+    -->
 
     <style name="CustomActivityTheme" parent="AppTheme">
         <item name="android:actionBarStyle">@style/MyActionBarColor</item>
-        <item name="android:actionBarTabTextStyle">@style/MyActionBarText</item>        <!-- other activity and action bar styles here -->
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarText</item>
+ <!-- other activity and action bar styles here -->
     </style>
 
     <!-- style for the action bar backgrounds -->
@@ -51,5 +54,10 @@
         <item name="android:textColor">@drawable/action_bar_textcolor</item>
     </style>
 
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
 
 </resources>
